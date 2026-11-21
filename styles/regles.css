@@ -1,0 +1,62 @@
+#cartes{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    
+}
+
+li{
+   padding: 10px; 
+   margin: 26px;
+}
+h3{
+    margin-left: 10px;
+}
+
+.objectif{
+    background-color: rgba(201, 204, 207, 0.315);
+    padding-top: 10px;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.regles{
+    background-color: rgba(201, 204, 207, 0.315);
+    padding-top: 10px;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+#btnAccueil{
+    background-color: #6c757d;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 13px;
+}
+
+#btnJouer{
+    background-color: #6c757d;
+    color: white;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 13px;
+}
+
+#boutons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+button:hover,
+  button:focus {
+    background-color: #5a6268;
+    transform: translateY(-1px);
+  }

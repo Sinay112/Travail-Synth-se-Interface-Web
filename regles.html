@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/main.css" />
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="styles/regles.css" />
     <title>Jeu de devinette d'un nombre</title>
   </head>
 
@@ -19,5 +19,29 @@
         </ul>
       </nav>
     </header>
+
+    <main>
+      <div id="cartes">
+        <div class="objectif">
+          <h3>Objectif du jeu</h3>
+          <ul>
+            <li>Pour gagner, vous devez réussir à deviner le nombre mystère avant le temps imparti.</li>
+            <li>Si vous réussissez, un résumé de votre résultat s'affichera et en cliquand sur "suivant", vous pourrez voir une page plus détaillé de votre score.</li>
+          </ul>
+        </div>
+        <div class="regles">
+          <h3>Règles du jeu</h3>
+          <ol>
+            <li>Si vous ne trouvez pas le nombre avant le temps imparti, vous perdez la partie.</li>
+            <li>Le nombre à deviner est entre 1 et 100.</li>
+            <li>Vous avez 15 secondes pour le trouver.</li>
+          </ol>
+        </div>
+      </div>
+      <div id="boutons">
+      <a id="btnAccueilEmplacement" href="/index.html"><button id="btnAccueil" type="button">← Retourner à l'accueil</button></a>
+      <a id="btnJouerEmplacement" href="/jeu.html"><button id="btnJouer" type="button"> Commencer à jouer →</button></a>
+      </div>
+    </main>
   </body>
 </html>
