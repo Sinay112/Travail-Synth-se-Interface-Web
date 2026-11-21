@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma page HTML complète</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="titreEnTete">Devinez le nombre!</h1>
+      <nav>
+        <ul>
+          <a class="headerLien" href="/index.html">Accueil</a>
+          <a class="headerLien" href="/regles.html">Règles</a>
+          <a class="headerLien" href="/jeu.html">Jouer</a>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="contenu-score">
+      <h2 id="scoreFinal"> Score final : </h2> <!-- juste a coté je doit afficher le score totale de la partie-->
+      <section class="grille-statistique">
+         <div class="statistique">
+             <h3>Temps total</h3>
+             <p id="tempsTotal">0 s</p>
+         </div>
+         <div class="statistique">
+             <h3>Coups joués</h3>
+             <p id="coupsJoues">0</p>
+         </div>
+      </section>
+      <div class="boite-precision"> 
+        <p>Précision : <span id="precisionTexte" >0%</span></p> 
+    </div>
+    <div> 
+        <p>Classement : --</p> 
+    </div>
+    <div class="actions"> 
+        <a href="jeu.html" class="btn">REJOUER</a> 
+        <a href="index.html" class="btn">Accueil ></a> 
+    </div>
+    </main>
+
+    <footer>
+    </footer>
+  </body>
+</html>
